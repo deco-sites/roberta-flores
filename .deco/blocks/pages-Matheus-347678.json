@@ -1,0 +1,14 @@
+{
+  "name": "Matheus",
+  "path": "/matheus",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Matheus/Teste.tsx",
+      "title": "Teste"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
