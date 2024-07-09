@@ -27,7 +27,7 @@ export async function action(props: Props, req: Request, ctx: AppContext) {
       postalCode: `${form.get("postalCode") ?? ""}`,
       country: "BRA",
     }) as SimulationOrderForm | null;
-
+    console.log("lado", props.items);
     return { result };
   } catch {
     return { result: null };

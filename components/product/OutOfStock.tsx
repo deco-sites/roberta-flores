@@ -12,6 +12,8 @@ export const action = async (props: Props, req: Request, ctx: AppContext) => {
   const name = `${form.get("name") ?? ""}`;
   const email = `${form.get("email") ?? ""}`;
 
+  console.log("values", name, email);
+
   // deno-lint-ignore no-explicit-any
   await (ctx as any).invoke("vtex/actions/notifyme.ts", {
     skuId: props.productID,
