@@ -1,0 +1,13 @@
+{
+  "name": "View Transition API",
+  "path": "/matheus/view",
+  "sections": [
+    {
+      "__resolveType": "FAQ - 03"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

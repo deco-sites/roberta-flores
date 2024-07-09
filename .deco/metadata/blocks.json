@@ -144,5 +144,11 @@
     "path": "/matheus",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-View%2520Transition%2520API-381643.json": {
+    "name": "View Transition API",
+    "path": "/matheus/view",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
